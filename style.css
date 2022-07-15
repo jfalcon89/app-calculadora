@@ -1,0 +1,54 @@
+#app-calculadora {
+    height: 420px;
+    width: 320px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#app-calculadora form {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+#textfield {
+    width: 100%;
+    height: 23%;
+    cursor: default;
+    background-color: #212121;
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 22px;
+}
+
+#app-calculadora input[type=button],
+input[type=reset] {
+    width: 22%;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100px;
+}
+
+.orange {
+    background-color: chocolate;
+    color: white;
+}
+
+.gris {
+    background-color: gray;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
